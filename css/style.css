@@ -1,0 +1,47 @@
+body {
+	text-align: center;
+	padding-top: 20%;
+	font-family: 'Slabo 27px', serif;
+}
+
+hr.divider {
+	border: solid;
+}
+
+a {
+	text-decoration: none;
+}
+
+.uq-green.text, .uq-green.text a {
+	color: #83c186;
+}
+.uq-green.bg {
+	background-color: #83c186;
+}
+.uq-green.border {
+	border-color: #83c186;
+}
+
+.links li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.links li:before {
+	content: '|';
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-right: 20px;
+}
+.links li:first-child:before {
+	content: '';
+}
+.links a {
+	padding: 0 10px;
+}
+.links a:hover {
+	border-radius: 25px;
+	background-color: #f4f4f4;
+}
