@@ -7,7 +7,7 @@ body {
 }
 
 hr.divider {
-	border: solid;
+	border: solid 0.2em;
 }
 
 a {
@@ -34,7 +34,7 @@ a {
 	list-style-type: none;
 	padding-right: 20px;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 .links li:before {
 	content: '|';
